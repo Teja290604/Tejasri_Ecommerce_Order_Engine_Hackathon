@@ -282,7 +282,7 @@ This keeps the system:
 ## 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/Tejasri_Ecommerce_Order_Engine_Hackathon.git
+git clone https://github.com/Teja290604/Tejasri_Ecommerce_Order_Engine_Hackathon.git
 cd Tejasri_Ecommerce_Order_Engine_Hackathon
 ```
 
