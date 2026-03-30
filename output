@@ -1,0 +1,237 @@
+C:\Users\TEJASRI\OneDrive\Desktop\Tejasri_Ecommerce_Order_Engine_Hackathon> python ecommerce_order_engine.py
+
+1.Add Product
+2.View Products
+3.Add to Cart
+4.Remove from Cart
+5.View Cart
+6.Apply Coupon
+7.Place Order
+8.Cancel Order
+9.View Orders
+10.Low Stock Alert
+11.Return Product
+12.Simulate Concurrent Users
+13.View Logs
+14.Trigger Failure Mode
+0.Exit
+Enter choice: 1
+PID: 101
+Name: Laptop
+Price: 75000 
+Stock: 4
+[13:50:41] PRODUCT 101 added
+
+1.Add Product
+2.View Products
+3.Add to Cart
+4.Remove from Cart
+5.View Cart
+6.Apply Coupon
+7.Place Order
+8.Cancel Order
+9.View Orders
+10.Low Stock Alert
+11.Return Product
+12.Simulate Concurrent Users
+13.View Logs
+14.Trigger Failure Mode
+0.Exit
+Enter choice: 1
+PID: 102
+Name: Keyboard
+Price: 500
+Stock: 7
+[13:51:07] PRODUCT 102 added
+
+1.Add Product
+2.View Products
+3.Add to Cart
+4.Remove from Cart
+5.View Cart
+6.Apply Coupon
+7.Place Order
+8.Cancel Order
+9.View Orders
+10.Low Stock Alert
+11.Return Product
+12.Simulate Concurrent Users
+13.View Logs
+14.Trigger Failure Mode
+0.Exit
+Enter choice: 1
+PID: 103
+Name: USB
+Price: 700
+Stock: 6
+[13:51:33] PRODUCT 103 added
+
+1.Add Product
+2.View Products
+3.Add to Cart
+4.Remove from Cart
+5.View Cart
+6.Apply Coupon
+7.Place Order
+8.Cancel Order
+9.View Orders
+10.Low Stock Alert
+11.Return Product
+12.Simulate Concurrent Users
+13.View Logs
+14.Trigger Failure Mode
+0.Exit
+Enter choice: 2
+101 {'name': 'Laptop', 'price': 75000.0, 'stock': 4, 'reserved': 0}
+102 {'name': 'Keyboard', 'price': 500.0, 'stock': 7, 'reserved': 0}
+103 {'name': 'USB', 'price': 700.0, 'stock': 6, 'reserved': 0}
+
+1.Add Product
+2.View Products
+3.Add to Cart
+4.Remove from Cart
+5.View Cart
+6.Apply Coupon
+7.Place Order
+8.Cancel Order
+9.View Orders
+10.Low Stock Alert
+11.Return Product
+12.Simulate Concurrent Users
+13.View Logs
+14.Trigger Failure Mode
+0.Exit
+Enter choice: 3
+User: Teju
+PID: 101
+Qty: 2
+[13:52:18] Teju added 101 qty=2
+Added to cart
+
+1.Add Product
+2.View Products
+3.Add to Cart
+4.Remove from Cart
+5.View Cart
+6.Apply Coupon
+7.Place Order
+8.Cancel Order
+9.View Orders
+10.Low Stock Alert
+11.Return Product
+12.Simulate Concurrent Users
+13.View Logs
+14.Trigger Failure Mode
+0.Exit
+Enter choice: 5
+User: Teju
+{'101': 2}
+
+1.Add Product
+2.View Products
+3.Add to Cart
+4.Remove from Cart
+5.View Cart
+6.Apply Coupon
+7.Place Order
+8.Cancel Order
+9.View Orders
+10.Low Stock Alert
+11.Return Product
+12.Simulate Concurrent Users
+13.View Logs
+14.Trigger Failure Mode
+0.Exit
+Enter choice: 14
+
+1.Add Product
+2.View Products
+3.Add to Cart
+4.Remove from Cart
+5.View Cart
+6.Apply Coupon
+7.Place Order
+8.Cancel Order
+9.View Orders
+10.Low Stock Alert
+11.Return Product
+12.Simulate Concurrent Users
+13.View Logs
+14.Trigger Failure Mode
+0.Exit
+Enter choice: 14
+
+1.Add Product
+2.View Products
+3.Add to Cart
+4.Remove from Cart
+5.View Cart
+6.Apply Coupon
+7.Place Order
+8.Cancel Order
+9.View Orders
+10.Low Stock Alert
+11.Return Product
+12.Simulate Concurrent Users
+13.View Logs
+14.Trigger Failure Mode
+0.Exit
+Enter choice: 10
+Low stock products:
+101 {'name': 'Laptop', 'price': 75000.0, 'stock': 2, 'reserved': 2}
+
+1.Add Product
+2.View Products
+3.Add to Cart
+4.Remove from Cart
+5.View Cart
+6.Apply Coupon
+7.Place Order
+8.Cancel Order
+9.View Orders
+10.Low Stock Alert
+11.Return Product
+12.Simulate Concurrent Users
+13.View Logs
+14.Trigger Failure Mode
+0.Exit
+Enter choice: 7
+User: Teju
+[13:53:30] ORDER_100 created
+[13:53:30] FRAUD ALERT for Teju
+[13:53:30] ORDER_100 payment success
+
+1.Add Product
+2.View Products
+3.Add to Cart
+4.Remove from Cart
+5.View Cart
+6.Apply Coupon
+7.Place Order
+8.Cancel Order
+9.View Orders
+10.Low Stock Alert
+11.Return Product
+12.Simulate Concurrent Users
+13.View Logs
+14.Trigger Failure Mode
+0.Exit
+Enter choice: 9
+100 {'user': 'Teju', 'items': {'101': 2}, 'total': 135000.0, 'state': 'PAID'}
+
+1.Add Product
+2.View Products
+3.Add to Cart
+4.Remove from Cart
+5.View Cart
+6.Apply Coupon
+7.Place Order
+8.Cancel Order
+9.View Orders
+10.Low Stock Alert
+11.Return Product
+12.Simulate Concurrent Users
+13.View Logs
+14.Trigger Failure Mode
+0.Exit
+Enter choice:
